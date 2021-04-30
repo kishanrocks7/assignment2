@@ -1,0 +1,104 @@
+
+html {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.6;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+}
+
+
+
+
+
+
+
+hr.separator {
+  border-top: 1px solid #252525;
+  margin: 70px auto 55px;
+  max-width: 40%;
+}
+
+.ft-wt-600 {
+  font-weight: 600;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.no-transform {
+  transform: none !important;
+}
+
+.custom-title {
+  padding-bottom: 22px;
+  font-size: 26px;
+}
+
+/*** Light Body ***/
+
+body.light {
+  color: #666;
+  background-color: #fff;
+}
+
+
+
+body.light.about .box-stats {
+  border: 1px solid #ddd;
+}
+
+body.light.about .c100,
+body.light.about .resume-box .time {
+  background-color: #eee;
+}
+
+body.light.about .resume-box .time,
+body.light.about .resume-box p {
+  color: #666;
+}
+
+body.light.about .resume-box .place:before {
+  background-color: #666;
+}
+
+body.light.about  .resume-box li:after {
+  border-left: 1px solid #ddd;
+}
+
+body.light.about .c100 > span {
+  color: #666;
+}
+
+body.light.about .c100:after {
+  background-color: #fff;
+}
+
+
+@media (max-width: 576px) {
+  body.light .title-section {
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+  }
+
+  body.light #menuToggle {
+    border: 0;
+  }
+
+  body.light.portfolio .slideshow nav span.nav-next,
+  body.light.portfolio .slideshow nav span.nav-prev {
+    top: 31px;
+  }
+}
