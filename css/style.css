@@ -333,3 +333,98 @@ body.light.about .c100:after {
   opacity: .8;
 }
 
+
+
+.about .c100 {
+  float: none !important;
+  margin: 0 auto;
+  background-color: #252525;
+}
+
+.about .c100 > span {
+  color: #fff;
+}
+
+.about .c100:after {
+  background-color: #111;
+}
+
+
+
+
+  .main-img-mobile {
+    border-radius: 50%;
+    width: 270px;
+    height: 270px;
+    border: 4px solid #252525;
+    margin: 0 auto 25px;
+    display: block;
+  }
+  
+
+  
+
+  
+
+
+
+@media (max-width: 576px) {
+  .btn {
+    font-size: 14px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .title-section.revealator-delay1 {
+    transform: none !important;
+    opacity: 1 !important;
+  }
+
+  
+
+  .main-img-mobile {
+    width: 230px;
+    height: 230px;
+  }
+
+
+
+  .about .main-content {
+    padding-bottom: 0;
+  }
+
+  .about .resume-box h5 {
+    font-size: 17px;
+  }
+
+  .about .box-stats {
+    padding: 15px 20px 20px 25px;
+  }
+
+  .about .c100 {
+    transform: scale(.8);
+  }
+
+  .about .box-stats.with-margin {
+    margin-bottom: 25px;
+  }
+
+  .about .box-stats h3 {
+    font-size: 40px;
+  }
+
+  .about .box-stats p {
+    padding-left: 0;
+  }
+
+  .about .box-stats p:before {
+    display: none;
+  }
+
+
+  .separator.mt-1 {
+    margin-top: 35px !important;
+  }
+}
